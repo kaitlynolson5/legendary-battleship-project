@@ -1,0 +1,15 @@
+userboard1 = cell(11,11);
+cellplot(userboard1)
+
+
+
+userboard2 = cell(11,11);
+cellplot(userboard2)
+
+
+subplot(1,2,1)
+cellplot(userboard1)
+title('Your Game Board')
+subplot(1,2,2)
+cellplot(userboard2)
+title('Opponents Game Board/Track Your Hits and Misses')
